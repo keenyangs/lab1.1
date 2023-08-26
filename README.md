@@ -27,4 +27,6 @@ int main()
 		sum += (pow((e), x) - i) / k;
 		printf("sum=%f\n", sum);
 }
+	return 0;
+       }
     
