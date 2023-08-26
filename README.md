@@ -8,7 +8,7 @@ Programm:
 #include <locale.h>
 int main()
 {
- float x, sum;
+    float x, sum;
 	setlocale(LC_ALL, "Ruassian");
 	int i,f, n, k;
 	sum = 0;
@@ -26,4 +26,5 @@ int main()
 		}
 		sum += (pow((e), x) - i) / k;
 		printf("sum=%f\n", sum);
+}
     
